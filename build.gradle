@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'io.quarkus'
+}
+
+repositories {
+	mavenCentral()
+    jcenter()
+    maven {
+    	url 'https://oss.sonatype.org/content/repositories/snapshots'
+    }
+}
+
+ext {
+	quarkusVersion = '1.1.1.Final'
+}
+
+dependencies {
+	implementation enforcedPlatform("io.quarkus:quarkus-bom:$quarkusVersion")
+    implementation 'io.quarkus:quarkus-undertow'
+
+    testCompile group: "io.quarkus", name: "quarkus-junit5", version: "$quarkusVersion"
+	testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
+}
