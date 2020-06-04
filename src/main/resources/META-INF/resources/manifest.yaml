@@ -1,4 +1,5 @@
 name: spring-theme
-description: Spring Theme
+description: Spring theme for Greenscape portal. This is the default theme for new sites
 version: 1.0.0
 author: Sheikh Sajid
+vendor: Greenscape Team

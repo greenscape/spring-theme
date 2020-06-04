@@ -12,7 +12,7 @@ repositories {
 }
 
 ext {
-	quarkusVersion = '1.1.1.Final'
+	quarkusVersion = '1.5.0.Final'
 }
 
 dependencies {
