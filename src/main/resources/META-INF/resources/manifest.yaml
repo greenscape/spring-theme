@@ -1,5 +1,9 @@
-name: spring-theme
-description: Spring theme for Greenscape portal. This is the default theme for new sites
-version: 1.0.0
-author: Sheikh Sajid
-vendor: Greenscape Team
+kind: Theme
+version: 1.0
+metadata:
+  name: spring-theme
+  description: "Spring theme for Greenscape portal. This is the default theme for new sites"
+  version: 1.0.0-SNAPSHOT
+  author: "Sheikh Sajid"
+  vendor: "Greenscape Team"
+  
