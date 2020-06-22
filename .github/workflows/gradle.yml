@@ -23,6 +23,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew -Dquarkus.container-image.password=$GH_TOKEN build
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: ./gradlew -Dquarkus.container-image.password=$secrets.GH_PACKAGE_TOKEN build
