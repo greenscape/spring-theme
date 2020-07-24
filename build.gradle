@@ -3,14 +3,12 @@ plugins {
     id 'io.quarkus'
 }
 
+group 'io.greenscape'
 version = '1.0.0'
 
 repositories {
-	mavenCentral()
-    jcenter()
-    maven {
-    	url 'https://oss.sonatype.org/content/repositories/snapshots'
-    }
+     mavenLocal()
+     mavenCentral()
 }
 
 dependencies {
